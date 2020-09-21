@@ -1,4 +1,4 @@
-import React, { PureComponent } from 'react';
+import React, { PureComponent, Component } from 'react';
 import { Image, 
   StyleSheet, View, 
   Text, TouchableOpacity,
@@ -8,7 +8,7 @@ import { Image,
 import RBSheet from "react-native-raw-bottom-sheet";
 import ImageZoom from 'react-native-image-pan-zoom';
 
-class ImageComponent extends PureComponent {
+class ImageComponent extends Component {
     constructor() {
       super();
     }

@@ -48,8 +48,6 @@ class Main extends Component {
 }
 
 const mapStateToProps = state => {
-  //const { imageState, dataState } = state
-  console.log(state.imageState.gridView)
   return { 
     gridView: state.imageState.gridView,
     loading: state.dataState.loading,
@@ -104,11 +102,13 @@ const styles = StyleSheet.create(
      color: 'black'
    },
    buttonDesign: {
+     marginTop: 30,
      padding: 15,
      backgroundColor: '#e91e63'
    },
    buttonText: {
      color: 'white',
+     fontSize: 20,
      textAlign: 'center',
      alignSelf: 'stretch'
    }
