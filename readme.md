@@ -4,6 +4,7 @@ A react-native app displaying a list of images in list and grid view. App has be
 # Demo
 
 <img src="demo/1.PNG" height="400" />
+<img src="demo/3.PNG" height="400" />
 
 # Packages Used
 1. redux
